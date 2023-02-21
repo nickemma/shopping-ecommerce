@@ -13,7 +13,7 @@ export const PRODUCTS = [
   {
     id: 1,
     productName: 'Arm Chair',
-    price: 99.99,
+    price: 99.9,
     productImage: product1,
   },
   {
@@ -25,49 +25,49 @@ export const PRODUCTS = [
   {
     id: 3,
     productName: 'Iphone 13',
-    price: 299.99,
+    price: 299.9,
     productImage: product3,
   },
   {
     id: 4,
     productName: 'Iphone 12',
-    price: 399.99,
+    price: 399.9,
     productImage: product4,
   },
   {
     id: 5,
     productName: 'Single Sofa',
-    price: 199.99,
+    price: 199.9,
     productImage: product5,
   },
   {
     id: 6,
     productName: 'Single Sofa Modern',
-    price: 299.99,
+    price: 299.9,
     productImage: product6,
   },
   {
     id: 7,
     productName: 'Apple Watch',
-    price: 399.99,
+    price: 400,
     productImage: product7,
   },
   {
     id: 8,
     productName: 'Apple Rolex',
-    price: 499.99,
+    price: 499.9,
     productImage: product8,
   },
   {
     id: 9,
     productName: 'Wireless Headphone',
-    price: 99.99,
+    price: 90.9,
     productImage: product9,
   },
   {
     id: 10,
     productName: 'Wireless Microphone',
-    price: 199.99,
+    price: 199.9,
     productImage: product12,
   },
 ];

@@ -22,7 +22,17 @@ const Cart = () => {
       <div className="cart__item">
         {PRODUCTS.map((product) => {
           if (productsItem[product.id] !== 0) {
-            return <CartCard key={product.id} {...product} />;
+            return (
+              <CartCard
+                key={product.id}
+                id={product.id}
+                productImage={product.productImage}
+                productName={product.productName}
+                price={product.price}
+              />
+            );
+          } else {
+            return null;
           }
         })}
       </div>
