@@ -1,0 +1,26 @@
+.footer {
+  margin-top: 3rem;
+  padding: 1rem 2rem;
+  background-color: #333;
+
+  .credit {
+    text-align: center;
+
+    p {
+      color: #fff;
+      font-weight: 500;
+      font-size: 2rem;
+
+      a {
+        color: coral;
+        font-weight: bold;
+        text-decoration: underline;
+        font-style: italic;
+
+        &:hover {
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}
