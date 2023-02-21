@@ -1,8 +1,8 @@
-import React from 'react';
-import './App.css';
+import './App.scss';
+import Layout from './components/layout/Layout';
 
 function App() {
-  return <h2>Hello Typescript cart</h2>;
+  return <Layout />;
 }
 
 export default App;
